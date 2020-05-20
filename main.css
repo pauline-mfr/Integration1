@@ -1,0 +1,60 @@
+body {text-align: center;
+font-family: 'Comfortaa', cursive;}
+
+.logo {float: left;}
+
+.nav {float: right;
+font-size: 20px;}
+
+.nav a {color: white;}
+
+#header {background-image: url("beach7_img.jpg");
+  background-repeat: no-repeat;
+  height: 650px;}
+
+#modern {position: absolute;
+  top: 30%;
+  left: 35%;}
+
+#down_arrow {position: absolute;
+  top: 70%;
+  left: 50%;}
+
+#sections {font-size: 1rem;}
+
+#section1 {background-color: rgb(52,84,99);}
+#section1 h2 {font-size: 1.5rem;}
+#section1 p {color: rgb(40,234,137);}
+
+#section2 {background-color: rgb(43,45,60);}
+#section2 h2 {font-size: 1.5rem;}
+#section2 p {color: rgb(40,234,137);}
+
+#section3 h2 {font-size: 1.5rem;}
+#section3 p {color: rgb(40,234,137);}
+
+#we_offer li {list-style-image: url("puce.png");
+padding-bottom: 0.6em;}
+
+#learnmore {background-color: rgb(40,234,137);
+margin-top: 15px;}
+
+#video {background-image: url("mountain5_img");
+height: 400px;}
+
+/*#video h1 {
+  position: absolute;
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%);}*/
+
+#playnow {background-color: rgb(40,234,137);}
+
+#blog {background-color: rgb(40,234,137);}
+
+.card {width: 18rem;}
+#post1 {margin-left: 350px;}
+
+#startproject {background-color: rgb(40,234,137);}
+
+#brand {}
