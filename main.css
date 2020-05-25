@@ -1,24 +1,85 @@
+/*xs*/@media screen and (max-width: 576px) {
+#header {height: 400px!important;
+background:;}
+.navbar {}
+#titre {height: 250px!important;}
+#modern {font-size: 1.8rem!important;}
+#desk {display: none;}
+#we_offer h2 {font-size: 1.1rem;}
+#video h1 {font-size: 1.5rem;}
+#blog h1 {font-size: 1.3rem;}
+#post1 {width: 18rem;
+  margin-left: auto!important;
+  margin-right: auto!important;}
+#post2 {width: 18rem;
+  margin-left: auto!important;
+  margin-right: auto!important;}
+#post3 {width: 18rem;
+  margin-left: auto!important;
+  margin-right: auto!important;}
+#pub {height: 200px;}
+#adv h1 {font-size: 1.3rem;
+margin-bottom: 5px;}
+#adv p {display: none;}
+#adv a {width: 140px;}
+#brand p {font-size: 0.8rem;}
+#footer {font-size: 0.7rem;}
+#footer p {}
+}
+
+/*small*/@media screen and (min-width: 577px) and (max-width: 768px) {
+#header {height: 550px!important;}
+#titre {height: 400px!important;}
+#modern {font-size: 2.2rem!important;}
+#sections p {font-size: 0.8rem!important;}
+#desk {display: none;}
+#we_offer h2 {font-size: 1.5rem;}
+#blog h1 {font-size: 1.8rem;}
+#pub {height:300px!important;}
+#adv h1 {font-size: 1.6rem;}
+#footer {font-size: 0.8rem;}
+}
+
+/*medium*/@media screen and (min-width: 769px) and (max-width: 992px){
+  #header {height: 600px!important;}
+  #modern {font-size: 2.5rem!important;}
+  #we_offer h2 {font-size: 1.5rem;}
+  .card-title {font-size: 1.3rem;}
+  .card-text {font-size: 0.9rem;}
+  #adv h1 {font-size: 1.8rem;}
+  #brand p {font-size: 0.9rem;}
+  #footer {font-size: 0.9rem;}
+  }
+
+/*large*/@media screen and (min-width: 993px) and (max-width: 1200px) {
+  #adv h1 {font-size: 2rem;}
+    }
+
+/*xl*/s@media screen and (min-width: 1201px) {}
+
 body {text-align: center;
 font-family: 'Comfortaa', cursive;}
 
+a:hover {color: rgb(40,234,137);}
+span {color: rgb(40,234,137);}
+
 .logo {float: left;}
 
-.nav {float: right;
-font-size: 20px;}
+nav {float: right;
+font-size: 1.25rem;}
 
-.nav a {color: white;}
+nav a {color: white;}
 
-#header {background-image: url("beach7_img.jpg");
-  background-repeat: no-repeat;
-  height: 650px;}
+#header {background-image: url("background.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+height: 650px;
+position: relative;}
 
-#modern {position: absolute;
-  top: 30%;
-  left: 35%;}
+#titre {height: 450px;}
 
-#down_arrow {position: absolute;
-  top: 70%;
-  left: 50%;}
+#modern {font-size: 3rem;}
 
 #sections {font-size: 1rem;}
 
@@ -33,28 +94,41 @@ font-size: 20px;}
 #section3 h2 {font-size: 1.5rem;}
 #section3 p {color: rgb(40,234,137);}
 
+
 #we_offer li {list-style-image: url("puce.png");
 padding-bottom: 0.6em;}
 
+#we_offer ul {margin-top: 1.5rem;}
+
+#desk {background-image: url("desk1_img.jpg");
+background-size: cover;
+height: auto;}
+
 #learnmore {background-color: rgb(40,234,137);
-margin-top: 15px;}
+margin-top: 1rem;}
 
 #video {background-image: url("mountain5_img");
-height: 400px;}
+height: 400px;
+position: relative;}
 
-/*#video h1 {
-  position: absolute;
+#watch {position: absolute;
   top: 50%
   left: 50%
-  transform: translate(-50%, -50%);}*/
+  transform: translate(-50%, -50%);}
 
 #playnow {background-color: rgb(40,234,137);}
 
 #blog {background-color: rgb(40,234,137);}
 
-.card {width: 18rem;}
-#post1 {margin-left: 350px;}
+#pub {position: relative;
+background-color: rgb(42,45,60);
+height: 400px;}
 
-#startproject {background-color: rgb(40,234,137);}
+#adv {position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);}
 
-#brand {}
+#start {background-color: rgb(40,234,137);}
+
+#footer {background-color: rgb(42,45,60);}
